@@ -3,7 +3,7 @@ import { useParams } from 'react-router'
 import { useState } from 'react';
 import DATA from '../Data';
 import { useDispatch } from 'react-redux';
-// import {addItem, delItem} from '../redux/actions/index'
+import {addItem, delItem} from '../redux/actions/index'
 
 const ProductDetail = () => {
     const [cartBtn, setCartBtn] = useState("Add to Cart")
